@@ -7,9 +7,6 @@ import requests
 import vk_api
 import telegram
 
-MESSAGE = "Test message"
-PHOTO = "C:/Users/Stas/Desktop/1.png"
-
 def createparser():
     parser = argparse.ArgumentParser()
     parser.add_argument('message')
@@ -50,7 +47,6 @@ if __name__ == '__main__':
     load_dotenv()
     vk_login = os.getenv("vk_login")
     vk_password = os.getenv("vk_password")
-    vk_photo_in_group_id = os.getenv("vk_photo_in_group_id")
     vk_owner_id = os.getenv("vk_owner_id")
     vk_group_id = os.getenv("vk_group_id")
     vk_album_id = os.getenv("vk_album_id")
