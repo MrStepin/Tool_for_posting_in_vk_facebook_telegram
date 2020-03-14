@@ -8,7 +8,11 @@ Use pip to install dependencies:
 ```pip install -r requirements.txt```
 
 How to use this script:  
-* Create file  ```.env``` with you, vk: login, password, group id, album id. telegram: token and chat_id. And facebook token.    
+* Create file  ```.env``` with you data.  
+VK login, password, group id, album id.   
+Telegram token and chat_id.  
+Facebook token.   
+
 Like this:  
 ```vk_login="57"```  
 ```vk_password="qx"```  
