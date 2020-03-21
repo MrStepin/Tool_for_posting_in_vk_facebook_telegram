@@ -3,16 +3,17 @@ Tool_for_posting_in_vk_facebook_telegram
  
 This script posts message with photo to vk.com, facebook.com and telegram channel at the same time.  
 
+##Environment:
 Python3 should be installed.  
+##Requirements:
 Use pip to install dependencies:  
 ```pip install -r requirements.txt```
 
-How to use this script:  
-* Create file  ```.env``` with you data.  
+##Environment variables: 
+Create file  ```.env``` with you data:  
 VK login, password, group id, album id.   
 Telegram token and chat_id.  
 Facebook token.   
-
 Like this:  
 ```vk_login="57"```  
 ```vk_password="qx"```  
@@ -23,7 +24,8 @@ Like this:
 ```telegram_chat_id="@Eduhon"```  
 ```facebook_access_token=EAALcfYf```  
 
-* Execute this script in CMD with message and path to image on you PC as arguments.
+##Run:
+Execute this script in CMD with message and path to image on you PC as arguments.
 For example:  
 ```python Tool_for_posting_in_vk_facebook_telegram.py "Nice day!" "C:/Users/S/Desktop/1.png"```
 
