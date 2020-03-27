@@ -15,14 +15,14 @@ VK login, password, group id, album id.
 Telegram token and chat_id.  
 Facebook token.   
 Like this:  
-```vk_login="57"```  
-```vk_password="qx"```  
-```vk_owner_id="-2090"```  
-```vk_group_id="1090"```  
-```vk_album_id="2745"```  
-```telegram_token="11438:AAHyWU"```  
-```telegram_chat_id="@Eduhon"```  
-```facebook_access_token=EAALcfYf```  
+```VK_LOGIN="57"```  
+```VK_PASSWORD="qx"```  
+```VK_OWNER_ID="-2090"```  
+```VK_GROUP_ID="1090"```  
+```VK_ALBUM_ID="2745"```  
+```TELEGRAM_TOKEN="11438:AAHyWU"```  
+```TELEGRAM_CHAT_ID="@Eduhon"```  
+```FACEBOOK_ACCESS_TOKEN=EAALcfYf```  
 
 ## Run:  
 Execute this script in CMD with message and path to image on you PC as arguments.
