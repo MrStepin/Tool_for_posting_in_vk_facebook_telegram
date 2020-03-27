@@ -19,7 +19,8 @@ def post_to_vk(vk_login,vk_password,vk_album_id,vk_group_id,vk_owner_id, photo, 
     vk_get_api = session.get_api()
     photo_upload = vk_api.VkUpload(session)
     photo = photo_upload.photo(photo, album_id=vk_album_id, group_id=vk_group_id)
-    vk_get_api.wall.post(message=message, attachment="photo-{}_{}".format(vk_group_id, photo[0]["id"]) , owner_id=vk_owner_id)
+    picture_vk_name="photo-{}_{}".format(vk_group_id, photo[0]["id"])
+    vk_get_api.wall.post(message=message, attachment=picture_vk_name , owner_id=vk_owner_id)
 
 def post_to_telegram(telegram_chat_id,telegram_token, photo, message):
 
